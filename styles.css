@@ -1,0 +1,55 @@
+head {
+  display: flex;
+  margin-top: 0;
+}
+
+main {
+  background-image: linear-gradient(to bottom, blue, purple);
+  height: auto;
+}
+
+body {
+  color: aliceblue;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+form {
+  background-color: rgba(138, 26, 236, 0.5);
+  margin: auto;
+  text-align: left;
+  width: max-content;
+}
+
+#comment-area {
+  min-width: 500px;
+  max-width: 500px;
+}
+
+#title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 70px;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px grey;
+  margin-top: 0;
+  padding: 25px;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px 175px;
+  color: aliceblue;
+}
